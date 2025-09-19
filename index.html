@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="JavaScript" content=" Assignment" />
+            <title>Trade With Lexzy Website</title>
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+        <body>
+            <header>
+                 <nav>
+                 <div class="logo">TRADE WITH LEXZY</div>
+                  <div id="menu-toggle">&#9776;</div>
+                 <ul class="nav-links" id="nav-links">
+                   <li><a href="#home">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#calculator">Calculator</a></li>
+                   <li><a href="#services">Services</a></li>
+                   <li><a href="#portfolio">Portfolio</a></li>
+                   <li><a href="#testimonials">Testimonials</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   </ul>
+                 </nav>
+            </header>  
+                 
+                 <!-- Hero -->
+                 <section class="home" id="home">
+                 <div class="home-content fade-in">
+                 <h1>TRADE WITH US!!!</h1>
+                 <p>Let's Share Joy Through Exchange.</p>
+                 <button class="btn">Get Started</button>
+                 </div>
+                 </section>
+
+
+                 <!-- Floating Gift Box -->
+                  <div class="gift-floating">
+                  <div class="gift" id="giftBox"></div>
+                  <div class="gift-message" id="giftMessage">
+                    🎉 Surprise!!! A 20% Bonus Offer If You Trade With Us Today!🎁🎉.
+                    <button class="close-btn">❌</button>
+                    </div>
+                  </div>
+
+                  <!-- Floating WhatsApp Button -->
+                  <a href="https://wa.me/2347049155308" target="_blank" class="whatsapp-float">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                  </a>
+
+
+
+                 <!-- About -->
+                  <section id="about" class="about fade-in">
+                 <div class="container">
+                 <h2>About Us</h2>
+                <p>
+                 We are a passionate team of designers, developers, and strategists 
+                  focused on building brands that stand out. Our mission is to transform 
+                  ideas into stunning digital experiences.
+                </p>
+                 <h2>Who We Are</h2>
+                 <p>We are Trade with Lexzy (TWL) — a modern exchange service dedicated to making currency and crypto trading fast, secure, and stressfree.</p>
+                 <h2>Our Mission</h2>
+                  <p>At Trade with Lexzy, our mission is to make value exchange simple, secure, and rewarding. We are committed to providing the best rates, transparent transactions, and reliable support while spreading joy through every exchange; crypto, gift cards, or currency.</p>
+                 <h2>What Makes Us Different</h2>
+                 <p>At Trade with Lexzy, we don’t just exchange money: we exchange trust, value, and joy. Here’s what sets us apart:<br><br>
+                     Best Rates Always: We ensure competitive rates for crypto, gift cards, and foreign exchange.<br><br>
+                     Lightning Fast Transactions: No waiting around; payments are processed in minutes.<br><br>
+                     Trusted & Transparent: Clear processes, no hidden fees, and consistent reliability.<br><br>
+                     Customer First Service: Friendly, responsive support that puts your needs first.<br><br>
+                     Community Driven: From campus events to everyday users, we’re building a culture of joyful exchanges.Fast Transactions,Payment within minutes.</p>
+                </div>
+                  </section>
+                
+                  
+                  <!-- Calculator -->
+                   <section class="calculator-section" id="calculator">
+                   <div class="calculator">
+                   <h2>TWL Rate Calculator</h2>
+    
+                   <label for="service">Select Service</label>
+                   <select id="service">
+                   <option value="btc">Bitcoin (BTC)</option>
+                   <option value="usdt">Tether (USDT)</option>
+                   <option value="apple">Apple Card</option>
+                   <option value="steam">Steam Card</option>
+                   <option value="razer">Razer Gold</option>
+                   <option value="visa">Visa Card</option>
+                   <option value="googleplay">Google Play</option>
+                   <option value="cashapp">Cashapp</option>
+                   </select>
+
+                   <label for="amount">Enter Amount (USD)</label>
+                   <input type="number" id="amount" placeholder="Enter amount in USD">
+
+                   <button onclick="calculateRate()">Calculate</button>
+
+                   <div class="result" id="result">Result will appear here</div>
+                   <p id="last-updated" style="margin-top: 10px; font-size: 12px; color: #999;"></p>
+                   </div>
+
+                    <!-- Services -->
+                  <section id="services" class="services" style="background: var(--accent);">
+                  <div class="container">
+                  <h2 class="fade-in">Our Services</h2>
+                  <div class="service-grid">
+                  <div class="service slide-left">
+                  <h3>Crypto Exchange</h3>
+                  <p>Buy and sell popular cryptocurrencies like Bitcoin, Ethereum, and USDT at secure and competitive rates.</p>
+                 </div>
+                 <div class="service fade-in">
+                 <h3>Gift Card Exchange</h3>
+                 <p>Convert your unused gift cards into cash or crypto quickly, with instant payment guaranteed.</p>
+                 </div>
+                 <div class="service slide-right">
+                 <h3>Foreign Currency Exchange</h3>
+                 <p>Trade international currencies (USD, GBP, EUR, etc.) to naira with transparent rates and zero hassle.</p>
+                 </div>
+                 </div>
+                 </div>
+                 </section>
+
+
+                  <!-- Testimonials -->
+                  <section id="testimonials" class="testimonials fade-in">
+                  <div class="container">
+                  <h2>What Clients Say</h2>
+                  <div class="testimonial-wrapper">
+                  <div class="testimonial-track" id="testimonial-track">
+                  <div class="testimonial">
+                 <blockquote>
+                  “Trade with Lexzy is the most reliable exchange I’ve ever used. My crypto transactions are always processed in minutes. no delays, no stress.”
+                  <cite>— David A., Student</cite>
+                  </blockquote>
+                  </div>
+                  <div class="testimonial">
+                  <blockquote>
+                  “I use them for dollar-to-naira exchange regularly, and they’ve never disappointed. 100% transparent and trustworthy.”
+                  <cite>— Iremide Autos., Car Dealership</cite>
+                  </blockquote>
+                  </div>
+                  <div class="testimonial">
+                  <blockquote>
+                   “I converted my gift cards to cash so fast! Their rates are fair, and the customer service was super friendly.”
+                 <cite>- TPL Iyanda O., Lecturer</cite>
+                  </blockquote>
+                  </div>
+                  <div class="testimonial">
+                  <blockquote>
+                  “TWL is more than a service, it’s a community. I love how they make every transaction smooth and joyful.”
+                  <cite>— O Black., Fashion Designer</cite>
+                  </blockquote>
+                    </div>
+                    </div>
+                    </div>
+                   </div>
+                 </section>
+
+
+                   <!-- Portfolio -->
+                  <section id="portfolio" class="portfolio fade-in">
+                  <div class="container">
+                  <h2>On Campus Events</h2>
+                  <div class="portfolio-grid">
+                  <img src="images/WhatsApp Image 2025-09-19 at 03.47.47_5e5a1ef0.jpg" alt="Lexzy Team at Yabatech Fresher's week"/>
+                  <img src="images/WhatsApp Image 2025-09-19 at 03.47.57_7049cea6.jpg" alt="Sourvenier at Yabatech Fresher's week"/>
+                  <img src="images/WhatsApp Image 2025-09-19 at 03.48.12_38b08336.jpg" alt="Sourvenier at Yabatech Fresher's week"/>
+                  <img src="images/WhatsApp Image 2025-09-19 at 03.48.13_d538eb59.jpg" alt="Lexzy Team on Campus"/>
+                 <img src="images/WhatsApp Image 2025-09-19 at 03.48.14_2674f551.jpg" alt="Lexzy Team at Yabatech Fresher's week"/>
+                 <img src="images/WhatsApp Image 2025-09-19 at 03.48.14_9b3f25dc.jpg" alt="Lexzy Team on Campus"/>
+                 <img src="images/WhatsApp Image 2025-09-19 at 03.48.35_2702b8c4.jpg" alt="Student at medical Outreach 1.0"/>
+                 <img src="images/WhatsApp Image 2025-09-19 at 03.48.35_8c2bcf0f.jpg" alt="Student at medical Outreach 1.0"/>
+                 <img src="images/WhatsApp Image 2025-09-19 at 03.48.35_ac0e4449.jpg" alt="Medical Outreach 1.0 Backdrop"/>
+                 <img src="images/IMG_5112.JPG" alt="TWL Hoodie"/>
+                 <img src="images/IMG_5113.JPG" alt="TWL Facecap"/>
+                 <img src="images/IMG_5116.JPG" alt="TWL Logo"/>
+                 </div>
+                 </div>
+                 </section>
+
+
+                  <!-- Contact -->
+                   <section id="contact" class="contact fade-in">
+                  <div class="container">
+                 <h2>Get In Touch</h2>
+                 <form id="contact-form">
+                 <input type="text" placeholder="Your Name" required/>
+                  <input type="email" placeholder="Your Email" required/>
+                  <textarea placeholder="Your Message" rows="5" required></textarea>
+                  <button type="submit" class="btn">Send Message</button>
+                  </form>
+                  </div>
+                   </section>
+
+               <!-- Footer -->     
+          <footer>
+            <p>&copy; trade with Lexzy 2025. All Right Reserved. Lexzy</p>
+          </footer>
+        <script src="js/script.js"></script>
+    </body>
+
+    </html> 
+
+
+
+    
