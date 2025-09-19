@@ -13,7 +13,7 @@ Motto: "Let’s share joy through exchange."
 
 ## Deployment
 - Hosted on GitHub Pages/Vercel
-- Live URL: 
+- Live URL: https://glittery-hummingbird-3b16e5.netlify.app/
 
 ## Tech Stack
 - HTML5
